@@ -8,8 +8,7 @@
 }
 
 html, body {
-    height: 100vh;
-    font-family: "Roboto", 'Times New Roman' ;
+    font-family: "Roboto", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -48,7 +47,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: rgba(255,255,255,0.20);
+    background-color: rgba(255, 255, 255, 0.20);
 }
 
 header .conteiner img {
@@ -59,7 +58,7 @@ header .conteiner img {
     display: none;
 }
 
-/* MAIN */ 
+/* MAIN */
 
 main {
     margin-bottom: 100px;
@@ -81,7 +80,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(131,131,131);
+    color: rgb(131, 131, 131);
     font-size: 20px;
     line-height: 28px;
     margin: 10px 0;
@@ -105,11 +104,15 @@ form [type="submit"] {
     background-color: #0080ed;
     color: white;
     font-size: 20px;
-    padding: 0;
+    width: 150px;
+    padding-left: 0px;
+    height: 40px;
 }
 
 form [type="submit"]:hover {
-    cursor: pointer
+    cursor: pointer;
+    background-color: rgba(0,128,237,0.8);
+    transform: translateY(-2px);
 }
 
 main .conteiner-main img {
@@ -117,6 +120,10 @@ main .conteiner-main img {
 }
 
 /* CARDS */
+
+a {
+    text-decoration: none;
+}
 
 .cards {
     width: 90%;
@@ -141,6 +148,7 @@ main .conteiner-main img {
     border-radius: 4px;
     box-shadow: 4px 4px 10px -4px black;
     transition: all 0.3s ease 0s;
+    border-radius: 10px;
 }
 
 .card:hover {
@@ -152,12 +160,12 @@ main .conteiner-main img {
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
 }
 
 .imagen img {
     position: absolute;
-    border-radius: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -179,7 +187,7 @@ main .conteiner-main img {
     justify-content: center;
     align-items: center;
     max-width: 980px;
-    margin: 100px auto;
+    margin: 100px auto 0;
     height: 400px;
 }
 
@@ -187,7 +195,7 @@ main .conteiner-main img {
     width: 520px;
 }
 
-.form form input{
+.form form input {
     width: 250px;
     height: 30px;
     border-radius: 10px;
@@ -216,14 +224,17 @@ textarea {
     color: white;
     font-size: 40px;
 }
+
 section#contato {
     background-image: linear-gradient(to top, #0072d6, #0080ed);
 }
 
-.form form input[type="submit"]{
+.form form input[type="submit"] {
     color: #272727;
     background-color: white;
     padding: 0;
+    width: 150px;
+    height: 35px;
 }
 
 #submit {
