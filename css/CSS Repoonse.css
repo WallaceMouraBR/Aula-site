@@ -56,7 +56,7 @@
     }
 }
 
-@media (max-width: 630px) { 
+@media (max-width: 630px) {
 
     .menu-button-conteiner {
         display: flex;
@@ -141,12 +141,12 @@
         transform: rotate(45deg);
         top: 8px;
     }
-    
+
     nav .menu {
         width: 100vw;
     }
 
-    #checkbox-menu:checked~nav .menu{
+    #checkbox-menu:checked~nav .menu {
         transform: translateX(-100vw);
         transition: 0.5 ease transform;
     }
